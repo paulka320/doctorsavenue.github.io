@@ -147,4 +147,10 @@ h3,span{
   font-style: italic;
   font-weight:bold;
 }
+.map{
+  margin-top:20px;
+  border-radius:10px;
+  overflow:hidden;
+}
+
 
