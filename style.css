@@ -196,29 +196,27 @@ h3,span{
   border-radius:10px;
   overflow:hidden;
 }
-.impact-metrics {
+.impact {
+  background: #fafafa;
   display: flex;
   justify-content: space-around;
+  padding: 60px 20px;
   text-align: center;
-  padding: 40px 20px;
-  background: #f9f9f9;
 }
-.impact-metrics .metric {
-  flex: 1;
-  margin: 0 10px;
+
+.metric h2 {
+  font-size: 2.8rem;
+  color: #2c7be5;
 }
-.impact-metrics .count {
-  font-size: 2.5rem;
-  color: #333;
-  font-weight: bold;
-}
-.impact-metrics p {
-  font-size: 1rem;
+
+.metric p {
   margin-top: 8px;
-  color: #666;
+  font-size: 1rem;
 }
-
-
-
-
-
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .impact {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
