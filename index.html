@@ -8,26 +8,6 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
-    <script>     
-const counters = document.querySelectorAll('.count');
-
-counters.forEach(counter => {
-  counter.innerText = '0';
-  const updateCount = () => {
-    const target = +counter.getAttribute('data-target');
-    const current = +counter.innerText;
-    const increment = Math.ceil(target / 200); // adjust speed
-
-    if (current < target) {
-      counter.innerText = current + increment;
-      setTimeout(updateCount, 20);
-    } else {
-      counter.innerText = target.toLocaleString();
-    }
-  };
-  updateCount();
-});
-    </script>
     <!-- Header -->
     <header>
         <div class="logo-container">
@@ -151,20 +131,21 @@ counters.forEach(counter => {
             </div>
         </div>
     </section>
-    <section class="impact-metrics">
+    <section class="impact">
   <div class="metric">
     <h2 class="count" data-target="1200000">0</h2>
-    <p>meals served since foundation</p>
+    <p>Meals Served</p>
   </div>
   <div class="metric">
     <h2 class="count" data-target="250000">0</h2>
-    <p>articles of clothing distributed</p>
+    <p>Clothing Items Distributed</p>
   </div>
   <div class="metric">
     <h2 class="count" data-target="50000">0</h2>
-    <p>patients provided health care annually</p>
+    <p>Patients Supported</p>
   </div>
 </section>
+
 
     <!-- Footer -->
     <footer class="footer">
@@ -206,6 +187,7 @@ counters.forEach(counter => {
     </script>
 </body>
 </html>
+
 
 
 
