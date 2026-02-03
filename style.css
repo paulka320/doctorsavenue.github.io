@@ -237,5 +237,36 @@ h3,span{
 
 
 
+.herox {
+  background: #2C7BE5;
+  color: #FFFFFF;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.herox h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.herox p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background: #0A3D2E;
+  color: #FFFFFF;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #0D5E46;
+}
+
 
 
