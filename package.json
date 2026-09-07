@@ -1,0 +1,15 @@
+{
+  "name": "st-anthony-doctors-avenue",
+  "version": "1.0.0",
+  "description": "Website for St. Anthony Doctors' Avenue hospital",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Static site ready'",
+    "lint": "node -c server.js script.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

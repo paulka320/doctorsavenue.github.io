@@ -1,0 +1,8 @@
+{
+  "name": "St. Anthony Doctors' Avenue",
+  "description": "Website for St. Anthony Doctors' Avenue hospital providing medical services, departments, and community healthcare.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
